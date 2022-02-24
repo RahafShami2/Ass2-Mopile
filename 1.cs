@@ -14,7 +14,9 @@ namespace App4
 
         private void button2_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("ggg", "okkk", "f");
+                    Browser.Source = " https://www.google.it/";
+
+     
         }
 
         private void button1_Clicked(object sender, EventArgs e)
@@ -24,6 +26,8 @@ namespace App4
         public MainPage()
         {
             InitializeComponent();
+            Browser.Source = "https://www.najah.edu/en/";
+
 
         }
 
